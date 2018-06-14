@@ -1,4 +1,6 @@
-
+html{
+  width:100%;
+}
 body {
 	margin: 0;
 	background-image:url("../../images/what-the-hex.png");
