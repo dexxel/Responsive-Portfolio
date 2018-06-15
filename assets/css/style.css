@@ -75,13 +75,12 @@ nav a:hover {
 
 .wrapper {
     height:auto;
-    width:auto;
     background-color:#ffffff;
     border-color:#dddddd;
     margin:50px 50px 50px 50px;
     padding:40px 30px 40px 30px;
     display:inline-block;
-    overflow:hidden;;
+    overflow:none;
 }
 
 #main h1 {
