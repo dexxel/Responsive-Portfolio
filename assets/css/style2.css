@@ -224,8 +224,8 @@ input[type=submit]:hover {
         margin-bottom: 1px;
       }
     }
- 
-  html{
+    @media screen and (max-width:640px){
+    html{
     width: 135%;
   }
 
