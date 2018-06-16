@@ -317,12 +317,6 @@ input[type=submit]:hover {
     font-size: 40px;
   }
 
-  .image{
-    float: left;
-    margin:13px 10px 0px 0px;
-    width: 125px; height: 170px;
-    border: none;
-}
 
   .wrapper {
     width: 78%;
