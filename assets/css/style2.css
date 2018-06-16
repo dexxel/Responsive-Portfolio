@@ -224,89 +224,113 @@ input[type=submit]:hover {
         margin-bottom: 1px;
       }
     }
-    @media screen and (max-width: 640px){
-      html{
-        width: 135%;
-      }
+ 
+  html{
+    width: 135%;
+  }
+
+
+  .logo, nav {
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 0;
+    font-size: 50px;
+    padding-left: 40px;
+  }
+
+  nav{
+    width: 100%;
+    padding-left: 125px;
+  }
+
+  header{
+    position: static;
+    width: 70%;
+    height: auto;
+    margin-left: 145px;
+    margin-right: 0;
+    margin-bottom: 1%;
+    font-size:90%;
+  }
+  
+  #main p {
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  }
+
+  .wrapper {
+    width: 70%;
+    height: auto;
+    margin-left: 145px;
+    margin-right: 0;
+    margin-bottom: 1%;
+    font-size:90%;
+  }
+
+  #main p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px){
+  
+  html{
+    width: 100%;
+  }
+  .logo {
+    margin-left: 0;
+    font-size: 40px;
+    padding-left: 15px;
+  }
+  header{
+    position: static;
+    width: 78%;
+    height: auto;
+    margin-left: 33px;
+    margin-right: 0;
+    margin-bottom: 1%;
+    font-size:90%;
+  }
+
+  nav{
     
-    
-      .logo, nav {
-        width: 100%;
-      }
-    
-      .logo {
-        margin-left: 0;
-        font-size: 50px;
-        padding-left: 40px;
-      }
-    
-      nav{
-        width: 100%;
-        padding-left: 125px;
-      }
-    
-      #main {
-      flex-wrap: wrap;
-      flex-direction: column;
-      
-      }
-    
-      .wrapper {
-        width: 70%;
-        margin-left: 148px;
-        margin-right: 1px;
-        margin-bottom: 1px;
-      }
-    }
-    @media screen and (max-width: 320px){
-      
-      html{
-        width: 128%;
-      }
-    
-      .logo, nav {
-        width: 100%;
-      }
-    
-      .logo {
-        margin-left: 55px;
-        font-size: 50px;
-        padding-left: 10px;
-      }
-    
-      nav{
-        
-        padding-left: 80px;
-      }
-    
-      #main p {
-        line-height: 40px;
-        flex-wrap: wrap;
-        flex-direction: column;
-      
-      }
-    
-      footer {
-        width:120%;
-      }
-    
-    
-      #main h1 {
-        margin:1px;
-      }
-    
-      .image{
-        float: left;
-        margin:13px 10px 0px 0px;
-        width: 125px; height: 170px;
-        border: none;
-    }
-    
-      .wrapper {
-        width: 80%;
-        margin-left: 80px;
-        margin-right: 0;
-        margin-bottom: 1%;
-        font-size:90%;
-      }
-    }
+    padding-left: 0px;
+  }
+
+  #main p {
+    width: 100%;
+    line-height: 55px;
+  }
+
+  footer {
+    position: static;
+    width: 100%;
+    margin-left: 0;
+  }
+
+
+  #main h1 {
+    margin:1px;
+    padding-left: 0;
+    font-size: 40px;
+  }
+
+  .image{
+    float: left;
+    margin:13px 10px 0px 0px;
+    width: 125px; height: 170px;
+    border: none;
+}
+
+  .wrapper {
+    width: 78%;
+    height: auto;
+    margin-left: 33px;
+    margin-right: 0;
+    margin-bottom: 1%;
+    font-size:90%;
+  }
+}
+
