@@ -260,7 +260,7 @@ li::after {
     position: static;
     width: 78%;
     height: auto;
-    margin-left: 0px;
+    margin-left: 33px;
     margin-right: 0;
     margin-bottom: 1%;
     font-size:90%;
@@ -278,7 +278,8 @@ li::after {
 
   footer {
     position: static;
-    width: 78%;
+    width: 100%;
+    margin-left: px;
   }
 
 
@@ -298,7 +299,7 @@ li::after {
   .wrapper {
     width: 78%;
     height: auto;
-    margin-left: 0px;
+    margin-left: 33px;
     margin-right: 0;
     margin-bottom: 1%;
     font-size:90%;
