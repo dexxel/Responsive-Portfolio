@@ -227,6 +227,16 @@ li::after {
     padding-left: 125px;
   }
 
+  header{
+    position: static;
+    width: 70%;
+    height: auto;
+    margin-left: 145px;
+    margin-right: 0;
+    margin-bottom: 1%;
+    font-size:90%;
+  }
+  
   #main p {
   flex-wrap: wrap;
   flex-direction: column;
