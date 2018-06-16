@@ -249,26 +249,33 @@ li::after {
 @media screen and (max-width: 320px){
   
   html{
-    width: 150%;
+    width: 100%;
   }
-
-  .logo, nav {
-    width: 80%;
+  .container{
+    width: 100%;
   }
-
   .logo {
-    margin-left: 55px;
-    font-size: 50px;
-    padding-left: 30px;
+    margin-left: 0;
+    font-size: 40px;
+    padding-left: 15px;
+  }
+  header{
+    position: static;
+    width: 78%;
+    height: auto;
+    margin-left: 45px;
+    margin-right: 0;
+    margin-bottom: 1%;
+    font-size:90%;
   }
 
   nav{
     
-    padding-left: 80px;
+    padding-left: 0px;
   }
 
   #main p {
-    width: 100%;
+    width: 110%;
     line-height: 55px;
   }
 
@@ -279,6 +286,8 @@ li::after {
 
   #main h1 {
     margin:1px;
+    padding-left: 0;
+    font-size: 40px;
   }
 
   .image{
@@ -289,9 +298,9 @@ li::after {
 }
 
   .wrapper {
-    width: 60%;
+    width: 78%;
     height: auto;
-    margin-left: 95px;
+    margin-left: 45px;
     margin-right: 0;
     margin-bottom: 1%;
     font-size:90%;
